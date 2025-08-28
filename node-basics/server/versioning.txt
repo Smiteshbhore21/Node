@@ -1,0 +1,37 @@
+//Version
+^5.1.0
+
+1st part -> 5
+2nd part -> 1
+3rd part -> 0
+
+// 3rd Part (last part) - Minor fixes (Optional)
+let's consider Latest -> 5.1.1 like they fix bug, or something
+
+// 2nd Part - Recommended Bug Fix (Security Fix)
+let's consider Latest -> 5.2.1 added new thing
+
+// 1st Part - Major / Breaking Update
+if build completely new application then we can update but,
+if we are using app created in old and then try to run in newer version then 
+code can break or can run normally.
+
+---------------------------------------------
+
+"express": "^5.1.0",
+5th version
+
+^5.1.0 ----> says that we can install version from 5.1.0 to < 6.0.0
+
+^ --> this symbol says that lock "^5", means don't change that 5 even if 6.0.0 is latest version
+^ --> Install All Recommended and Minor fixes automatically
+
+---------------------------------------------
+
+"express": "~5.1.0",
+5th version
+
+~5.1.0 ----> says that we can install version from 5.1.0 to <= 5.1.9
+
+~ --> this symbol says that lock "~5.1", means don't change that 5.1 even if 5.2.0 is latest version
+~ --> Install All Minor fixes only automatically

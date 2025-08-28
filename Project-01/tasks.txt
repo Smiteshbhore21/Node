@@ -1,0 +1,20 @@
+Rest API - JSON
+
+//For Browser -->
+GET /users - HTML Document Render
+
+//For Mobile App -->
+GET /api/users - List all users
+// Dynamic Path parameters --> GET /api/users/:id
+:id --> variable | Dynamic
+GET /api/users/1 - get user with ID 1
+
+POST /api/users - Create new user
+
+PATCH /api/user/id - Edit the user with ID
+
+DELETE /api/users/ID - Delete the user with ID
+
+
+
+we did for mobile as well as for Browser that means we did hybrid server
